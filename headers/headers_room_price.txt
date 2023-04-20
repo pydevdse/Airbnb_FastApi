@@ -1,0 +1,12 @@
+:authority: www.airbnb.com
+:method: GET
+:path: /api/v3/StaysPdpSections?operationName=StaysPdpSections&locale=en&currency=USD&variables=%7B%22id%22%3A%22U3RheUxpc3Rpbmc6NTkzMzY2MTEwNTQwNTg4Mzgx%22%2C%22pdpSectionsRequest%22%3A%7B%22adults%22%3A%221%22%2C%22bypassTargetings%22%3Afalse%2C%22categoryTag%22%3A%22Tag%3A8536%22%2C%22causeId%22%3Anull%2C%22children%22%3A%220%22%2C%22disasterId%22%3Anull%2C%22discountedGuestFeeVersion%22%3Anull%2C%22displayExtensions%22%3Anull%2C%22federatedSearchId%22%3A%22ca2ff94b-116f-4bac-89e6-2b7ecb37115b%22%2C%22forceBoostPriorityMessageType%22%3Anull%2C%22infants%22%3A%220%22%2C%22interactionType%22%3Anull%2C%22layouts%22%3A%5B%22SIDEBAR%22%2C%22SINGLE_COLUMN%22%5D%2C%22pets%22%3A0%2C%22pdpTypeOverride%22%3Anull%2C%22preview%22%3Afalse%2C%22previousStateCheckIn%22%3Anull%2C%22previousStateCheckOut%22%3Anull%2C%22priceDropSource%22%3Anull%2C%22privateBooking%22%3Afalse%2C%22promotionUuid%22%3Anull%2C%22relaxedAmenityIds%22%3Anull%2C%22searchId%22%3Anull%2C%22selectedCancellationPolicyId%22%3Anull%2C%22selectedRatePlanId%22%3Anull%2C%22splitStays%22%3Anull%2C%22staysBookingMigrationEnabled%22%3Afalse%2C%22translateUgc%22%3Anull%2C%22useNewSectionWrapperApi%22%3Afalse%2C%22sectionIds%22%3A%5B%22CANCELLATION_POLICY_PICKER_MODAL%22%2C%22BOOK_IT_CALENDAR_SHEET%22%2C%22POLICIES_DEFAULT%22%2C%22BOOK_IT_SIDEBAR%22%2C%22URGENCY_COMMITMENT_SIDEBAR%22%2C%22BOOK_IT_NAV%22%2C%22BOOK_IT_FLOATING_FOOTER%22%2C%22EDUCATION_FOOTER_BANNER%22%2C%22URGENCY_COMMITMENT%22%2C%22EDUCATION_FOOTER_BANNER_MODAL%22%5D%2C%22checkIn%22%3A%222023-04-20%22%2C%22checkOut%22%3A%222023-04-27%22%2C%22p3ImpressionId%22%3A%22p3_1681955034_f36tv9G0gbLsoADQ%22%2C%22photoId%22%3Anull%7D%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%223aebb59d292ede4bb8fa8b61528d50b5f55fcf40cae4034fc09e0b632ca9fbb8%22%7D%7D
+:scheme: https
+accept: */*
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9
+content-type: application/json
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+x-airbnb-api-key: d306zoyjsyarp7ifhu67rjxn52tv0t20
+
+

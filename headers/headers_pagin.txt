@@ -1,0 +1,22 @@
+:authority: www.airbnb.com
+:method: POST
+:path: /api/v3/StaysSearch?operationName=StaysSearch&locale=en&currency=UAH
+:scheme: https
+accept: */*
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9
+content-length: 2152
+content-type: application/json
+device-memory: 8
+dpr: 1.375
+ect: 4g
+origin: https://www.airbnb.com
+sec-ch-ua: "Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Linux"
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-origin
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+viewport-width: 1396
+x-airbnb-api-key: d306zoyjsyarp7ifhu67rjxn52tv0t20

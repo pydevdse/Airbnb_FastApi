@@ -1,0 +1,10 @@
+:authority: www.airbnb.com
+:method: GET
+:path: /api/v3/PdpReviews?operationName=PdpReviews&locale=en&currency=UAH&variables=%7B%22request%22%3A%7B%22fieldSelector%22%3A%22for_p3_translation_only%22%2C%22limit%22%3A7%2C%22listingId%22%3A%223696751%22%2C%22checkinDate%22%3A%222023-03-04%22%2C%22checkoutDate%22%3A%222023-03-09%22%2C%22numberOfAdults%22%3A%221%22%2C%22numberOfChildren%22%3A%220%22%2C%22numberOfInfants%22%3A%220%22%7D%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%226a71d7bc44d1f4f16cced238325ced8a93e08ea901270a3f242fd29ff02e8a3a%22%7D%7D
+:scheme: https
+accept: */*
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9
+content-type: application/json
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+x-airbnb-api-key: d306zoyjsyarp7ifhu67rjxn52tv0t20
