@@ -161,8 +161,8 @@ class Airbnb:
         except Exception as e:
             print(e)
             return
-        with open(f"room_info_{room_id}.json", "w") as f:
-            json.dump(j, f, ensure_ascii=False, indent=4)
+        # with open(f"room_info_{room_id}.json", "w") as f:
+        #     json.dump(j, f, ensure_ascii=False, indent=4)
 
         # j.update({"roomID": j['data']['presentation']['stayProductDetailPage']['sections']['metadata']['loggingContext']['eventDataLogging']['listingId']})
         # userid = j['data']['presentation']['stayProductDetailPage']['sections']['sections']
