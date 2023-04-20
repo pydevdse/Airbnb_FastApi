@@ -9,7 +9,316 @@
                     "sections": [
                         {
                             "__typename": "SectionContainer",
-                            "id": "U2VjdGlvbkNvbnRhaW5lcjotNjE3MDAyOTI5NDUxOTY0Njc5OA==",
+                            "id": "U2VjdGlvbkNvbnRhaW5lcjo4NjU3NzM4MzY0MTQzMDcwMDEw",
+                            "sectionComponentType": "BOOK_IT_FLOATING_FOOTER",
+                            "sectionContentStatus": "COMPLETE",
+                            "sectionId": "BOOK_IT_FLOATING_FOOTER",
+                            "errors": null,
+                            "sectionDependencies": [
+                                "BOOKING"
+                            ],
+                            "enableDependencies": null,
+                            "disableDependencies": null,
+                            "loggingData": {
+                                "__typename": "LoggingEventData",
+                                "loggingId": "pdp_platform.book_it_floating_footer",
+                                "experiments": null,
+                                "eventData": null,
+                                "eventDataSchemaName": null,
+                                "section": null,
+                                "component": null
+                            },
+                            "e2eLoggingSession": null,
+                            "mutationMetadata": null,
+                            "pluginPointId": "BOOK_IT_FLOATING_FOOTER",
+                            "section": {
+                                "__typename": "BookItSection",
+                                "subpageIdToOpen": null,
+                                "showPriceBreakdown": false,
+                                "cancellationPolicyLoggingEventData": null,
+                                "calendarTitle": null,
+                                "calendarSubtitle": null,
+                                "descriptionItems": null,
+                                "discountCopy": null,
+                                "maxGuestCapacity": null,
+                                "maxPlusValue": null,
+                                "tripDetailsLoggingEventData": null,
+                                "reviewItem": null,
+                                "available": false,
+                                "structuredDisplayPrice": {
+                                    "__typename": "StructuredDisplayPrice",
+                                    "primaryLine": {
+                                        "__typename": "DiscountedDisplayPriceLine",
+                                        "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
+                                        "accessibilityLabel": "$527 per night, originally $586",
+                                        "discountedPrice": "$527",
+                                        "originalPrice": "$586",
+                                        "qualifier": "night",
+                                        "shortQualifier": "night",
+                                        "concatQualifierLeft": false,
+                                        "trailingContent": null
+                                    },
+                                    "secondaryLine": null,
+                                    "explanationData": {
+                                        "__typename": "DisplayPriceExplanationData",
+                                        "title": null,
+                                        "priceDetails": [
+                                            {
+                                                "__typename": "DisplayPriceExplanationLineGroup",
+                                                "displayComponentType": null,
+                                                "items": [
+                                                    {
+                                                        "__typename": "DefaultExplanationLineItem",
+                                                        "displayComponentType": null,
+                                                        "description": "$586 x 5 nights",
+                                                        "priceString": "$2,929",
+                                                        "explanationData": {
+                                                            "__typename": "DisplayPriceExplanationData",
+                                                            "title": "Base Price Breakdown",
+                                                            "priceDetails": [
+                                                                {
+                                                                    "__typename": "DisplayPriceExplanationLineGroup",
+                                                                    "displayComponentType": null,
+                                                                    "items": [
+                                                                        {
+                                                                            "__typename": "DefaultExplanationLineItem",
+                                                                            "displayComponentType": null,
+                                                                            "description": "4/20/2023",
+                                                                            "priceString": "$585"
+                                                                        },
+                                                                        {
+                                                                            "__typename": "DefaultExplanationLineItem",
+                                                                            "displayComponentType": null,
+                                                                            "description": "4/21/2023",
+                                                                            "priceString": "$585"
+                                                                        },
+                                                                        {
+                                                                            "__typename": "DefaultExplanationLineItem",
+                                                                            "displayComponentType": null,
+                                                                            "description": "4/22/2023",
+                                                                            "priceString": "$585"
+                                                                        },
+                                                                        {
+                                                                            "__typename": "DefaultExplanationLineItem",
+                                                                            "displayComponentType": null,
+                                                                            "description": "4/23/2023",
+                                                                            "priceString": "$585"
+                                                                        },
+                                                                        {
+                                                                            "__typename": "DefaultExplanationLineItem",
+                                                                            "displayComponentType": null,
+                                                                            "description": "4/24/2023",
+                                                                            "priceString": "$589"
+                                                                        }
+                                                                    ],
+                                                                    "renderBorderTop": false,
+                                                                    "collapsable": false
+                                                                },
+                                                                {
+                                                                    "__typename": "DisplayPriceExplanationLineGroup",
+                                                                    "displayComponentType": null,
+                                                                    "items": [
+                                                                        {
+                                                                            "__typename": "HighlightExplanationLineItem",
+                                                                            "displayComponentType": "HIGHLIGHT_EXPLANATION_LINE_ITEM",
+                                                                            "description": "Total Base Price",
+                                                                            "priceString": "$2,929"
+                                                                        }
+                                                                    ],
+                                                                    "renderBorderTop": true,
+                                                                    "collapsable": null
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "__typename": "DiscountedExplanationLineItem",
+                                                        "displayComponentType": null,
+                                                        "description": "Special offer",
+                                                        "priceString": "-$293",
+                                                        "explanationData": {
+                                                            "__typename": "DisplayPriceExplanationData",
+                                                            "title": null,
+                                                            "priceDetails": [
+                                                                {
+                                                                    "__typename": "DisplayPriceExplanationDisclaimer",
+                                                                    "displayComponentType": null,
+                                                                    "content": "Offer good from Apr 20 to Apr 24. Must be booked within 8 days."
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "__typename": "DefaultExplanationLineItem",
+                                                        "displayComponentType": null,
+                                                        "description": "Airbnb service fee",
+                                                        "priceString": "$447",
+                                                        "explanationData": {
+                                                            "__typename": "DisplayPriceExplanationData",
+                                                            "title": null,
+                                                            "priceDetails": [
+                                                                {
+                                                                    "__typename": "DisplayPriceExplanationDisclaimer",
+                                                                    "displayComponentType": null,
+                                                                    "content": "This helps us run our platform and offer services like 24/7 support on your trip.\nThis includes VAT."
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "renderBorderTop": false,
+                                                "collapsable": false
+                                            },
+                                            {
+                                                "__typename": "DisplayPriceExplanationLineGroup",
+                                                "displayComponentType": null,
+                                                "items": [
+                                                    {
+                                                        "__typename": "HighlightExplanationLineItem",
+                                                        "displayComponentType": "HIGHLIGHT_EXPLANATION_LINE_ITEM",
+                                                        "description": "Total before taxes",
+                                                        "priceString": "$3,083",
+                                                        "explanationData": null,
+                                                        "originalPriceString": null,
+                                                        "accessibilityLabel": null
+                                                    }
+                                                ],
+                                                "renderBorderTop": true,
+                                                "collapsable": null
+                                            }
+                                        ]
+                                    },
+                                    "explanationDataDisplayPosition": null,
+                                    "explanationDataDisplayPriceTriggerType": null,
+                                    "layout": "COLUMN"
+                                },
+                                "discountData": null,
+                                "bookItButtonByPlacement": {
+                                    "__typename": "BookItButtonByPlacement",
+                                    "footerButton": {
+                                        "__typename": "BasicListItem",
+                                        "title": "Change dates",
+                                        "action": null,
+                                        "loggingEventData": {
+                                            "__typename": "LoggingEventData",
+                                            "loggingId": "pdp.stickyFooter.openCalendar",
+                                            "experiments": null,
+                                            "eventData": null,
+                                            "eventDataSchemaName": null,
+                                            "section": "stickyFooter",
+                                            "component": "openCalendar"
+                                        },
+                                        "button": null
+                                    },
+                                    "sideBarButton": {
+                                        "__typename": "BasicListItem",
+                                        "title": "Change dates",
+                                        "action": null,
+                                        "loggingEventData": {
+                                            "__typename": "LoggingEventData",
+                                            "loggingId": "pdp.sideBar.openCalendar",
+                                            "experiments": null,
+                                            "eventData": null,
+                                            "eventDataSchemaName": null,
+                                            "section": "sideBar",
+                                            "component": "openCalendar"
+                                        },
+                                        "button": null
+                                    },
+                                    "stickyNavButton": {
+                                        "__typename": "BasicListItem",
+                                        "title": "Change dates",
+                                        "action": null,
+                                        "loggingEventData": {
+                                            "__typename": "LoggingEventData",
+                                            "loggingId": "pdp.stickyNav.openCalendar",
+                                            "experiments": null,
+                                            "eventData": null,
+                                            "eventDataSchemaName": null,
+                                            "section": "stickyNav",
+                                            "component": "openCalendar"
+                                        },
+                                        "button": null
+                                    },
+                                    "calendarFooterButton": {
+                                        "__typename": "BasicListItem",
+                                        "title": "Save",
+                                        "action": null,
+                                        "loggingEventData": {
+                                            "__typename": "LoggingEventData",
+                                            "loggingId": "pdp.stickyFooter.save",
+                                            "experiments": null,
+                                            "eventData": null,
+                                            "eventDataSchemaName": null,
+                                            "section": "stickyFooter",
+                                            "component": "save"
+                                        },
+                                        "button": null
+                                    }
+                                },
+                                "cancellationPolicies": null,
+                                "cancellationPolicyForDisplay": null,
+                                "localizedUnavailabilityMessage": "Minimum stay is 7 nights",
+                                "localizedUnavailabilityMessagePositionString": "DATE",
+                                "priceDisclaimer": null,
+                                "selectedDatesLink": {
+                                    "__typename": "BasicListItem",
+                                    "title": "Apr 20 – 25",
+                                    "action": {
+                                        "__typename": "OpenAvailabilityCalendarAction",
+                                        "loggingData": {
+                                            "__typename": "LoggingEventData",
+                                            "loggingId": "pdp.bookItFooter.selectedDatesLink",
+                                            "eventData": null,
+                                            "eventDataSchemaName": null,
+                                            "section": null,
+                                            "component": null
+                                        }
+                                    }
+                                },
+                                "selectedNights": null,
+                                "bookItButtonLayout": "RIGHT_ALIGNED",
+                                "productItemDetail": null,
+                                "ratePlanLoggingEventData": null,
+                                "ratePlanTitle": null,
+                                "promotionBanner": null,
+                                "guestDisclaimer": null,
+                                "petsAllowed": null,
+                                "petDetails": null
+                            }
+                        },
+                        {
+                            "__typename": "SectionContainer",
+                            "id": "U2VjdGlvbkNvbnRhaW5lcjotMjExMDM5NzU3ODk2MTEwMjg3MQ==",
+                            "sectionComponentType": "EDUCATION_FOOTER_BANNER_MODAL",
+                            "sectionContentStatus": "COMPLETE",
+                            "sectionId": "EDUCATION_FOOTER_BANNER_MODAL",
+                            "errors": null,
+                            "sectionDependencies": [
+                                "BOOKING"
+                            ],
+                            "enableDependencies": null,
+                            "disableDependencies": null,
+                            "loggingData": {
+                                "__typename": "LoggingEventData",
+                                "loggingId": "pdp_platform.education_footer_banner_modal",
+                                "experiments": null,
+                                "eventData": null,
+                                "eventDataSchemaName": null,
+                                "section": null,
+                                "component": null
+                            },
+                            "e2eLoggingSession": null,
+                            "mutationMetadata": null,
+                            "pluginPointId": "EDUCATION_FOOTER_BANNER_MODAL",
+                            "section": {
+                                "__typename": "EducationFooterBannerSection",
+                                "pdpEducationContentData": null
+                            }
+                        },
+                        {
+                            "__typename": "SectionContainer",
+                            "id": "U2VjdGlvbkNvbnRhaW5lcjo1NjI5Mjc0OTYzMDY5Nzk3",
                             "sectionComponentType": "BOOK_IT_CALENDAR_SHEET",
                             "sectionContentStatus": "COMPLETE",
                             "sectionId": "BOOK_IT_CALENDAR_SHEET",
@@ -63,15 +372,15 @@
                                     "subtitle": null,
                                     "title": "5.0"
                                 },
-                                "available": true,
+                                "available": false,
                                 "structuredDisplayPrice": {
                                     "__typename": "StructuredDisplayPrice",
                                     "primaryLine": {
                                         "__typename": "DiscountedDisplayPriceLine",
                                         "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
-                                        "accessibilityLabel": "$536 per night, originally $595",
-                                        "discountedPrice": "$536",
-                                        "originalPrice": "$595",
+                                        "accessibilityLabel": "$527 per night, originally $586",
+                                        "discountedPrice": "$527",
+                                        "originalPrice": "$586",
                                         "qualifier": "night",
                                         "shortQualifier": "night",
                                         "concatQualifierLeft": false,
@@ -89,8 +398,8 @@
                                                     {
                                                         "__typename": "DefaultExplanationLineItem",
                                                         "displayComponentType": null,
-                                                        "description": "$595 x 7 nights",
-                                                        "priceString": "$4,166",
+                                                        "description": "$586 x 5 nights",
+                                                        "priceString": "$2,929",
                                                         "explanationData": {
                                                             "__typename": "DisplayPriceExplanationData",
                                                             "title": "Base Price Breakdown",
@@ -103,43 +412,31 @@
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/20/2023",
-                                                                            "priceString": "$595"
+                                                                            "priceString": "$585"
                                                                         },
                                                                         {
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/21/2023",
-                                                                            "priceString": "$595"
+                                                                            "priceString": "$585"
                                                                         },
                                                                         {
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/22/2023",
-                                                                            "priceString": "$595"
+                                                                            "priceString": "$585"
                                                                         },
                                                                         {
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/23/2023",
-                                                                            "priceString": "$595"
+                                                                            "priceString": "$585"
                                                                         },
                                                                         {
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/24/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/25/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/26/2023",
-                                                                            "priceString": "$596"
+                                                                            "priceString": "$589"
                                                                         }
                                                                     ],
                                                                     "renderBorderTop": false,
@@ -153,7 +450,7 @@
                                                                             "__typename": "HighlightExplanationLineItem",
                                                                             "displayComponentType": "HIGHLIGHT_EXPLANATION_LINE_ITEM",
                                                                             "description": "Total Base Price",
-                                                                            "priceString": "$4,166"
+                                                                            "priceString": "$2,929"
                                                                         }
                                                                     ],
                                                                     "renderBorderTop": true,
@@ -166,7 +463,7 @@
                                                         "__typename": "DiscountedExplanationLineItem",
                                                         "displayComponentType": null,
                                                         "description": "Special offer",
-                                                        "priceString": "-$417",
+                                                        "priceString": "-$293",
                                                         "explanationData": {
                                                             "__typename": "DisplayPriceExplanationData",
                                                             "title": null,
@@ -174,7 +471,7 @@
                                                                 {
                                                                     "__typename": "DisplayPriceExplanationDisclaimer",
                                                                     "displayComponentType": null,
-                                                                    "content": "Offer good from Apr 20 to Apr 26. Must be booked within 8 days."
+                                                                    "content": "Offer good from Apr 20 to Apr 24. Must be booked within 8 days."
                                                                 }
                                                             ]
                                                         }
@@ -183,7 +480,7 @@
                                                         "__typename": "DefaultExplanationLineItem",
                                                         "displayComponentType": null,
                                                         "description": "Airbnb service fee",
-                                                        "priceString": "$635",
+                                                        "priceString": "$447",
                                                         "explanationData": {
                                                             "__typename": "DisplayPriceExplanationData",
                                                             "title": null,
@@ -208,7 +505,7 @@
                                                         "__typename": "HighlightExplanationLineItem",
                                                         "displayComponentType": "HIGHLIGHT_EXPLANATION_LINE_ITEM",
                                                         "description": "Total before taxes",
-                                                        "priceString": "$4,384",
+                                                        "priceString": "$3,083",
                                                         "explanationData": null,
                                                         "originalPriceString": null,
                                                         "accessibilityLabel": null
@@ -228,46 +525,46 @@
                                     "__typename": "BookItButtonByPlacement",
                                     "footerButton": {
                                         "__typename": "BasicListItem",
-                                        "title": "Reserve",
+                                        "title": "Change dates",
                                         "action": null,
                                         "loggingEventData": {
                                             "__typename": "LoggingEventData",
-                                            "loggingId": "pdp.stickyFooter.bookIt",
+                                            "loggingId": "pdp.stickyFooter.openCalendar",
                                             "experiments": null,
                                             "eventData": null,
                                             "eventDataSchemaName": null,
                                             "section": "stickyFooter",
-                                            "component": "bookIt"
+                                            "component": "openCalendar"
                                         },
                                         "button": null
                                     },
                                     "sideBarButton": {
                                         "__typename": "BasicListItem",
-                                        "title": "Reserve",
+                                        "title": "Change dates",
                                         "action": null,
                                         "loggingEventData": {
                                             "__typename": "LoggingEventData",
-                                            "loggingId": "pdp.sideBar.bookIt",
+                                            "loggingId": "pdp.sideBar.openCalendar",
                                             "experiments": null,
                                             "eventData": null,
                                             "eventDataSchemaName": null,
                                             "section": "sideBar",
-                                            "component": "bookIt"
+                                            "component": "openCalendar"
                                         },
                                         "button": null
                                     },
                                     "stickyNavButton": {
                                         "__typename": "BasicListItem",
-                                        "title": "Reserve",
+                                        "title": "Change dates",
                                         "action": null,
                                         "loggingEventData": {
                                             "__typename": "LoggingEventData",
-                                            "loggingId": "pdp.stickyNav.bookIt",
+                                            "loggingId": "pdp.stickyNav.openCalendar",
                                             "experiments": null,
                                             "eventData": null,
                                             "eventDataSchemaName": null,
                                             "section": "stickyNav",
-                                            "component": "bookIt"
+                                            "component": "openCalendar"
                                         },
                                         "button": null
                                     },
@@ -289,8 +586,8 @@
                                 },
                                 "cancellationPolicies": null,
                                 "cancellationPolicyForDisplay": null,
-                                "localizedUnavailabilityMessage": null,
-                                "localizedUnavailabilityMessagePositionString": null,
+                                "localizedUnavailabilityMessage": "Minimum stay is 7 nights",
+                                "localizedUnavailabilityMessagePositionString": "DATE",
                                 "priceDisclaimer": null,
                                 "selectedDatesLink": null,
                                 "selectedNights": null,
@@ -324,19 +621,21 @@
                         },
                         {
                             "__typename": "SectionContainer",
-                            "id": "U2VjdGlvbkNvbnRhaW5lcjotNTg2ODQ5Mjc5NjU4NzY3Mzk4NQ==",
-                            "sectionComponentType": "BOOK_IT_FLOATING_FOOTER",
+                            "id": "U2VjdGlvbkNvbnRhaW5lcjoyMTE3NjIyNTg3Njk5MzQ0NA==",
+                            "sectionComponentType": "CANCELLATION_POLICY_PICKER_MODAL",
                             "sectionContentStatus": "COMPLETE",
-                            "sectionId": "BOOK_IT_FLOATING_FOOTER",
+                            "sectionId": "CANCELLATION_POLICY_PICKER_MODAL",
                             "errors": null,
                             "sectionDependencies": [
+                                "CHECK_IN",
+                                "CHECK_OUT",
                                 "BOOKING"
                             ],
                             "enableDependencies": null,
                             "disableDependencies": null,
                             "loggingData": {
                                 "__typename": "LoggingEventData",
-                                "loggingId": "pdp_platform.book_it_floating_footer",
+                                "loggingId": "pdp_platform.cancellation_policy_picker_modal",
                                 "experiments": null,
                                 "eventData": null,
                                 "eventDataSchemaName": null,
@@ -345,307 +644,21 @@
                             },
                             "e2eLoggingSession": null,
                             "mutationMetadata": null,
-                            "pluginPointId": "BOOK_IT_FLOATING_FOOTER",
+                            "pluginPointId": "CANCELLATION_POLICY_PICKER_MODAL",
                             "section": {
-                                "__typename": "BookItSection",
-                                "subpageIdToOpen": null,
-                                "showPriceBreakdown": false,
-                                "cancellationPolicyLoggingEventData": null,
-                                "calendarTitle": null,
-                                "calendarSubtitle": null,
-                                "descriptionItems": null,
-                                "discountCopy": null,
-                                "maxGuestCapacity": null,
-                                "maxPlusValue": null,
-                                "tripDetailsLoggingEventData": null,
-                                "reviewItem": null,
-                                "available": true,
-                                "structuredDisplayPrice": {
-                                    "__typename": "StructuredDisplayPrice",
-                                    "primaryLine": {
-                                        "__typename": "DiscountedDisplayPriceLine",
-                                        "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
-                                        "accessibilityLabel": "$536 per night, originally $595",
-                                        "discountedPrice": "$536",
-                                        "originalPrice": "$595",
-                                        "qualifier": "night",
-                                        "shortQualifier": "night",
-                                        "concatQualifierLeft": false,
-                                        "trailingContent": null
-                                    },
-                                    "secondaryLine": null,
-                                    "explanationData": {
-                                        "__typename": "DisplayPriceExplanationData",
-                                        "title": null,
-                                        "priceDetails": [
-                                            {
-                                                "__typename": "DisplayPriceExplanationLineGroup",
-                                                "displayComponentType": null,
-                                                "items": [
-                                                    {
-                                                        "__typename": "DefaultExplanationLineItem",
-                                                        "displayComponentType": null,
-                                                        "description": "$595 x 7 nights",
-                                                        "priceString": "$4,166",
-                                                        "explanationData": {
-                                                            "__typename": "DisplayPriceExplanationData",
-                                                            "title": "Base Price Breakdown",
-                                                            "priceDetails": [
-                                                                {
-                                                                    "__typename": "DisplayPriceExplanationLineGroup",
-                                                                    "displayComponentType": null,
-                                                                    "items": [
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/20/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/21/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/22/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/23/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/24/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/25/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/26/2023",
-                                                                            "priceString": "$596"
-                                                                        }
-                                                                    ],
-                                                                    "renderBorderTop": false,
-                                                                    "collapsable": false
-                                                                },
-                                                                {
-                                                                    "__typename": "DisplayPriceExplanationLineGroup",
-                                                                    "displayComponentType": null,
-                                                                    "items": [
-                                                                        {
-                                                                            "__typename": "HighlightExplanationLineItem",
-                                                                            "displayComponentType": "HIGHLIGHT_EXPLANATION_LINE_ITEM",
-                                                                            "description": "Total Base Price",
-                                                                            "priceString": "$4,166"
-                                                                        }
-                                                                    ],
-                                                                    "renderBorderTop": true,
-                                                                    "collapsable": null
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "__typename": "DiscountedExplanationLineItem",
-                                                        "displayComponentType": null,
-                                                        "description": "Special offer",
-                                                        "priceString": "-$417",
-                                                        "explanationData": {
-                                                            "__typename": "DisplayPriceExplanationData",
-                                                            "title": null,
-                                                            "priceDetails": [
-                                                                {
-                                                                    "__typename": "DisplayPriceExplanationDisclaimer",
-                                                                    "displayComponentType": null,
-                                                                    "content": "Offer good from Apr 20 to Apr 26. Must be booked within 8 days."
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "__typename": "DefaultExplanationLineItem",
-                                                        "displayComponentType": null,
-                                                        "description": "Airbnb service fee",
-                                                        "priceString": "$635",
-                                                        "explanationData": {
-                                                            "__typename": "DisplayPriceExplanationData",
-                                                            "title": null,
-                                                            "priceDetails": [
-                                                                {
-                                                                    "__typename": "DisplayPriceExplanationDisclaimer",
-                                                                    "displayComponentType": null,
-                                                                    "content": "This helps us run our platform and offer services like 24/7 support on your trip.\nThis includes VAT."
-                                                                }
-                                                            ]
-                                                        }
-                                                    }
-                                                ],
-                                                "renderBorderTop": false,
-                                                "collapsable": false
-                                            },
-                                            {
-                                                "__typename": "DisplayPriceExplanationLineGroup",
-                                                "displayComponentType": null,
-                                                "items": [
-                                                    {
-                                                        "__typename": "HighlightExplanationLineItem",
-                                                        "displayComponentType": "HIGHLIGHT_EXPLANATION_LINE_ITEM",
-                                                        "description": "Total before taxes",
-                                                        "priceString": "$4,384",
-                                                        "explanationData": null,
-                                                        "originalPriceString": null,
-                                                        "accessibilityLabel": null
-                                                    }
-                                                ],
-                                                "renderBorderTop": true,
-                                                "collapsable": null
-                                            }
-                                        ]
-                                    },
-                                    "explanationDataDisplayPosition": null,
-                                    "explanationDataDisplayPriceTriggerType": null,
-                                    "layout": "COLUMN"
+                                "__typename": "CancellationPolicyPickerSection",
+                                "title": "Choose a cancellation policy",
+                                "button": {
+                                    "__typename": "Button",
+                                    "title": "Continue",
+                                    "action": null
                                 },
-                                "discountData": null,
-                                "bookItButtonByPlacement": {
-                                    "__typename": "BookItButtonByPlacement",
-                                    "footerButton": {
-                                        "__typename": "BasicListItem",
-                                        "title": "Reserve",
-                                        "action": null,
-                                        "loggingEventData": {
-                                            "__typename": "LoggingEventData",
-                                            "loggingId": "pdp.stickyFooter.bookIt",
-                                            "experiments": null,
-                                            "eventData": null,
-                                            "eventDataSchemaName": null,
-                                            "section": "stickyFooter",
-                                            "component": "bookIt"
-                                        },
-                                        "button": null
-                                    },
-                                    "sideBarButton": {
-                                        "__typename": "BasicListItem",
-                                        "title": "Reserve",
-                                        "action": null,
-                                        "loggingEventData": {
-                                            "__typename": "LoggingEventData",
-                                            "loggingId": "pdp.sideBar.bookIt",
-                                            "experiments": null,
-                                            "eventData": null,
-                                            "eventDataSchemaName": null,
-                                            "section": "sideBar",
-                                            "component": "bookIt"
-                                        },
-                                        "button": null
-                                    },
-                                    "stickyNavButton": {
-                                        "__typename": "BasicListItem",
-                                        "title": "Reserve",
-                                        "action": null,
-                                        "loggingEventData": {
-                                            "__typename": "LoggingEventData",
-                                            "loggingId": "pdp.stickyNav.bookIt",
-                                            "experiments": null,
-                                            "eventData": null,
-                                            "eventDataSchemaName": null,
-                                            "section": "stickyNav",
-                                            "component": "bookIt"
-                                        },
-                                        "button": null
-                                    },
-                                    "calendarFooterButton": {
-                                        "__typename": "BasicListItem",
-                                        "title": "Save",
-                                        "action": null,
-                                        "loggingEventData": {
-                                            "__typename": "LoggingEventData",
-                                            "loggingId": "pdp.stickyFooter.save",
-                                            "experiments": null,
-                                            "eventData": null,
-                                            "eventDataSchemaName": null,
-                                            "section": "stickyFooter",
-                                            "component": "save"
-                                        },
-                                        "button": null
-                                    }
-                                },
-                                "cancellationPolicies": null,
-                                "cancellationPolicyForDisplay": null,
-                                "localizedUnavailabilityMessage": null,
-                                "localizedUnavailabilityMessagePositionString": null,
-                                "priceDisclaimer": null,
-                                "selectedDatesLink": {
-                                    "__typename": "BasicListItem",
-                                    "title": "Apr 20 – 27",
-                                    "action": {
-                                        "__typename": "OpenAvailabilityCalendarAction",
-                                        "loggingData": {
-                                            "__typename": "LoggingEventData",
-                                            "loggingId": "pdp.bookItFooter.selectedDatesLink",
-                                            "eventData": null,
-                                            "eventDataSchemaName": null,
-                                            "section": null,
-                                            "component": null
-                                        }
-                                    }
-                                },
-                                "selectedNights": null,
-                                "bookItButtonLayout": "RIGHT_ALIGNED",
-                                "productItemDetail": null,
-                                "ratePlanLoggingEventData": null,
-                                "ratePlanTitle": null,
-                                "promotionBanner": null,
-                                "guestDisclaimer": null,
-                                "petsAllowed": null,
-                                "petDetails": null
+                                "optionalityPriceDetail": null
                             }
                         },
                         {
                             "__typename": "SectionContainer",
-                            "id": "U2VjdGlvbkNvbnRhaW5lcjo0MjMxMzkyNTI5MjU0MTI4MzU2",
-                            "sectionComponentType": "EDUCATION_FOOTER_BANNER_MODAL",
-                            "sectionContentStatus": "COMPLETE",
-                            "sectionId": "EDUCATION_FOOTER_BANNER_MODAL",
-                            "errors": null,
-                            "sectionDependencies": [
-                                "BOOKING"
-                            ],
-                            "enableDependencies": null,
-                            "disableDependencies": null,
-                            "loggingData": {
-                                "__typename": "LoggingEventData",
-                                "loggingId": "pdp_platform.education_footer_banner_modal",
-                                "experiments": null,
-                                "eventData": null,
-                                "eventDataSchemaName": null,
-                                "section": null,
-                                "component": null
-                            },
-                            "e2eLoggingSession": null,
-                            "mutationMetadata": null,
-                            "pluginPointId": "EDUCATION_FOOTER_BANNER_MODAL",
-                            "section": {
-                                "__typename": "EducationFooterBannerSection",
-                                "pdpEducationContentData": null
-                            }
-                        },
-                        {
-                            "__typename": "SectionContainer",
-                            "id": "U2VjdGlvbkNvbnRhaW5lcjotNDQzMDMwNjE2Njc1ODcxMTkxMQ==",
+                            "id": "U2VjdGlvbkNvbnRhaW5lcjotMTI1MDk2NjM3MzgzNzY3ODgzMA==",
                             "sectionComponentType": "POLICIES_DEFAULT",
                             "sectionContentStatus": "COMPLETE",
                             "sectionId": "POLICIES_DEFAULT",
@@ -712,7 +725,7 @@
                                                 ],
                                                 "refundTerm": "No refund",
                                                 "milestoneDateTime": "2023-04-20T13:00:00Z",
-                                                "accessibilityContent": "Cancel by April 27 at 10:00 AM and you'll get a No refund."
+                                                "accessibilityContent": "Cancel by April 25 at 10:00 AM and you'll get a No refund."
                                             }
                                         ]
                                     },
@@ -726,14 +739,14 @@
                                         "entries": [
                                             {
                                                 "__typename": "CancellationMilestoneEntryV2",
-                                                "accessibilityContent": "No refund if cancel after 5:59 AM on April 20. This reservation is non-refundable..",
+                                                "accessibilityContent": "No refund if cancel after 6:46 AM on April 20. This reservation is non-refundable..",
                                                 "endAt": "2023-04-20T13:00:00Z",
                                                 "refundTerm": "This reservation is non-refundable.",
                                                 "refundType": "No refund",
-                                                "startAt": "2023-04-20T03:59:54.391Z",
+                                                "startAt": "2023-04-20T04:46:53.873Z",
                                                 "timelineSubtitles": [
                                                     "Apr 20",
-                                                    "5:59 AM"
+                                                    "6:46 AM"
                                                 ],
                                                 "timelineTitle": "After"
                                             }
@@ -940,7 +953,7 @@
                         },
                         {
                             "__typename": "SectionContainer",
-                            "id": "U2VjdGlvbkNvbnRhaW5lcjo1NDY0ODM5OTQ5NTg0MjI4Mzgw",
+                            "id": "U2VjdGlvbkNvbnRhaW5lcjotMjY3MDU5Mzc5NDQ3MDExNjYwOQ==",
                             "sectionComponentType": "BOOK_IT_SIDEBAR",
                             "sectionContentStatus": "COMPLETE",
                             "sectionId": "BOOK_IT_SIDEBAR",
@@ -1140,15 +1153,15 @@
                                     "subtitle": "10 reviews",
                                     "title": "5.0 ·"
                                 },
-                                "available": true,
+                                "available": false,
                                 "structuredDisplayPrice": {
                                     "__typename": "StructuredDisplayPrice",
                                     "primaryLine": {
                                         "__typename": "DiscountedDisplayPriceLine",
                                         "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
-                                        "accessibilityLabel": "$536 per night, originally $595",
-                                        "discountedPrice": "$536",
-                                        "originalPrice": "$595",
+                                        "accessibilityLabel": "$527 per night, originally $586",
+                                        "discountedPrice": "$527",
+                                        "originalPrice": "$586",
                                         "qualifier": "night",
                                         "shortQualifier": "night",
                                         "concatQualifierLeft": false,
@@ -1166,8 +1179,8 @@
                                                     {
                                                         "__typename": "DefaultExplanationLineItem",
                                                         "displayComponentType": null,
-                                                        "description": "$595 x 7 nights",
-                                                        "priceString": "$4,166",
+                                                        "description": "$586 x 5 nights",
+                                                        "priceString": "$2,929",
                                                         "explanationData": {
                                                             "__typename": "DisplayPriceExplanationData",
                                                             "title": "Base Price Breakdown",
@@ -1180,43 +1193,31 @@
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/20/2023",
-                                                                            "priceString": "$595"
+                                                                            "priceString": "$585"
                                                                         },
                                                                         {
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/21/2023",
-                                                                            "priceString": "$595"
+                                                                            "priceString": "$585"
                                                                         },
                                                                         {
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/22/2023",
-                                                                            "priceString": "$595"
+                                                                            "priceString": "$585"
                                                                         },
                                                                         {
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/23/2023",
-                                                                            "priceString": "$595"
+                                                                            "priceString": "$585"
                                                                         },
                                                                         {
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/24/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/25/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/26/2023",
-                                                                            "priceString": "$596"
+                                                                            "priceString": "$589"
                                                                         }
                                                                     ],
                                                                     "renderBorderTop": false,
@@ -1230,7 +1231,7 @@
                                                                             "__typename": "HighlightExplanationLineItem",
                                                                             "displayComponentType": "HIGHLIGHT_EXPLANATION_LINE_ITEM",
                                                                             "description": "Total Base Price",
-                                                                            "priceString": "$4,166"
+                                                                            "priceString": "$2,929"
                                                                         }
                                                                     ],
                                                                     "renderBorderTop": true,
@@ -1243,7 +1244,7 @@
                                                         "__typename": "DiscountedExplanationLineItem",
                                                         "displayComponentType": null,
                                                         "description": "Special offer",
-                                                        "priceString": "-$417",
+                                                        "priceString": "-$293",
                                                         "explanationData": {
                                                             "__typename": "DisplayPriceExplanationData",
                                                             "title": null,
@@ -1251,7 +1252,7 @@
                                                                 {
                                                                     "__typename": "DisplayPriceExplanationDisclaimer",
                                                                     "displayComponentType": null,
-                                                                    "content": "Offer good from Apr 20 to Apr 26. Must be booked within 8 days."
+                                                                    "content": "Offer good from Apr 20 to Apr 24. Must be booked within 8 days."
                                                                 }
                                                             ]
                                                         }
@@ -1260,7 +1261,7 @@
                                                         "__typename": "DefaultExplanationLineItem",
                                                         "displayComponentType": null,
                                                         "description": "Airbnb service fee",
-                                                        "priceString": "$635",
+                                                        "priceString": "$447",
                                                         "explanationData": {
                                                             "__typename": "DisplayPriceExplanationData",
                                                             "title": null,
@@ -1285,7 +1286,7 @@
                                                         "__typename": "HighlightExplanationLineItem",
                                                         "displayComponentType": "HIGHLIGHT_EXPLANATION_LINE_ITEM",
                                                         "description": "Total before taxes",
-                                                        "priceString": "$4,384",
+                                                        "priceString": "$3,083",
                                                         "explanationData": null,
                                                         "originalPriceString": null,
                                                         "accessibilityLabel": null
@@ -1305,46 +1306,46 @@
                                     "__typename": "BookItButtonByPlacement",
                                     "footerButton": {
                                         "__typename": "BasicListItem",
-                                        "title": "Reserve",
+                                        "title": "Change dates",
                                         "action": null,
                                         "loggingEventData": {
                                             "__typename": "LoggingEventData",
-                                            "loggingId": "pdp.stickyFooter.bookIt",
+                                            "loggingId": "pdp.stickyFooter.openCalendar",
                                             "experiments": null,
                                             "eventData": null,
                                             "eventDataSchemaName": null,
                                             "section": "stickyFooter",
-                                            "component": "bookIt"
+                                            "component": "openCalendar"
                                         },
                                         "button": null
                                     },
                                     "sideBarButton": {
                                         "__typename": "BasicListItem",
-                                        "title": "Reserve",
+                                        "title": "Change dates",
                                         "action": null,
                                         "loggingEventData": {
                                             "__typename": "LoggingEventData",
-                                            "loggingId": "pdp.sideBar.bookIt",
+                                            "loggingId": "pdp.sideBar.openCalendar",
                                             "experiments": null,
                                             "eventData": null,
                                             "eventDataSchemaName": null,
                                             "section": "sideBar",
-                                            "component": "bookIt"
+                                            "component": "openCalendar"
                                         },
                                         "button": null
                                     },
                                     "stickyNavButton": {
                                         "__typename": "BasicListItem",
-                                        "title": "Reserve",
+                                        "title": "Change dates",
                                         "action": null,
                                         "loggingEventData": {
                                             "__typename": "LoggingEventData",
-                                            "loggingId": "pdp.stickyNav.bookIt",
+                                            "loggingId": "pdp.stickyNav.openCalendar",
                                             "experiments": null,
                                             "eventData": null,
                                             "eventDataSchemaName": null,
                                             "section": "stickyNav",
-                                            "component": "bookIt"
+                                            "component": "openCalendar"
                                         },
                                         "button": null
                                     },
@@ -1366,156 +1367,13 @@
                                 },
                                 "cancellationPolicies": null,
                                 "cancellationPolicyForDisplay": null,
-                                "localizedUnavailabilityMessage": null,
-                                "localizedUnavailabilityMessagePositionString": null,
+                                "localizedUnavailabilityMessage": "Minimum stay is 7 nights",
+                                "localizedUnavailabilityMessagePositionString": "DATE",
                                 "priceDisclaimer": null,
                                 "selectedDatesLink": null,
                                 "selectedNights": null,
                                 "bookItButtonLayout": null,
-                                "productItemDetail": {
-                                    "__typename": "BasicPriceDetail",
-                                    "explanationData": {
-                                        "__typename": "DisplayPriceExplanationData",
-                                        "title": null,
-                                        "priceDetails": [
-                                            {
-                                                "__typename": "DisplayPriceExplanationLineGroup",
-                                                "displayComponentType": null,
-                                                "items": [
-                                                    {
-                                                        "__typename": "DefaultExplanationLineItem",
-                                                        "displayComponentType": null,
-                                                        "description": "$595 x 7 nights",
-                                                        "priceString": "$4,166",
-                                                        "explanationData": {
-                                                            "__typename": "DisplayPriceExplanationData",
-                                                            "title": "Base Price Breakdown",
-                                                            "priceDetails": [
-                                                                {
-                                                                    "__typename": "DisplayPriceExplanationLineGroup",
-                                                                    "displayComponentType": null,
-                                                                    "items": [
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/20/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/21/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/22/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/23/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/24/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/25/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/26/2023",
-                                                                            "priceString": "$596"
-                                                                        }
-                                                                    ],
-                                                                    "renderBorderTop": false,
-                                                                    "collapsable": false
-                                                                },
-                                                                {
-                                                                    "__typename": "DisplayPriceExplanationLineGroup",
-                                                                    "displayComponentType": null,
-                                                                    "items": [
-                                                                        {
-                                                                            "__typename": "HighlightExplanationLineItem",
-                                                                            "displayComponentType": "HIGHLIGHT_EXPLANATION_LINE_ITEM",
-                                                                            "description": "Total Base Price",
-                                                                            "priceString": "$4,166"
-                                                                        }
-                                                                    ],
-                                                                    "renderBorderTop": true,
-                                                                    "collapsable": null
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "__typename": "DiscountedExplanationLineItem",
-                                                        "displayComponentType": null,
-                                                        "description": "Special offer",
-                                                        "priceString": "-$417",
-                                                        "explanationData": {
-                                                            "__typename": "DisplayPriceExplanationData",
-                                                            "title": null,
-                                                            "priceDetails": [
-                                                                {
-                                                                    "__typename": "DisplayPriceExplanationDisclaimer",
-                                                                    "displayComponentType": null,
-                                                                    "content": "Offer good from Apr 20 to Apr 26. Must be booked within 8 days."
-                                                                }
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "__typename": "DefaultExplanationLineItem",
-                                                        "displayComponentType": null,
-                                                        "description": "Airbnb service fee",
-                                                        "priceString": "$635",
-                                                        "explanationData": {
-                                                            "__typename": "DisplayPriceExplanationData",
-                                                            "title": null,
-                                                            "priceDetails": [
-                                                                {
-                                                                    "__typename": "DisplayPriceExplanationDisclaimer",
-                                                                    "displayComponentType": null,
-                                                                    "content": "This helps us run our platform and offer services like 24/7 support on your trip.\nThis includes VAT."
-                                                                }
-                                                            ]
-                                                        }
-                                                    }
-                                                ],
-                                                "renderBorderTop": false,
-                                                "collapsable": false
-                                            },
-                                            {
-                                                "__typename": "DisplayPriceExplanationLineGroup",
-                                                "displayComponentType": null,
-                                                "items": [
-                                                    {
-                                                        "__typename": "HighlightExplanationLineItem",
-                                                        "displayComponentType": "HIGHLIGHT_EXPLANATION_LINE_ITEM",
-                                                        "description": "Total before taxes",
-                                                        "priceString": "$4,384",
-                                                        "explanationData": null,
-                                                        "originalPriceString": null,
-                                                        "accessibilityLabel": null
-                                                    }
-                                                ],
-                                                "renderBorderTop": true,
-                                                "collapsable": null
-                                            }
-                                        ]
-                                    }
-                                },
+                                "productItemDetail": null,
                                 "ratePlanLoggingEventData": {
                                     "__typename": "LoggingEventData",
                                     "loggingId": "pdp.bookItSidebar.ratePlanInput",
@@ -1552,7 +1410,7 @@
                         },
                         {
                             "__typename": "SectionContainer",
-                            "id": "U2VjdGlvbkNvbnRhaW5lcjotNDMyNDAyODIwOTkzNzMzMTQwNw==",
+                            "id": "U2VjdGlvbkNvbnRhaW5lcjotNDE1MTkzNDIwMzQ1NTQ2MjcwMQ==",
                             "sectionComponentType": "URGENCY_COMMITMENT",
                             "sectionContentStatus": "SHOULD_HIDE",
                             "sectionId": "URGENCY_COMMITMENT_SIDEBAR",
@@ -1578,7 +1436,7 @@
                         },
                         {
                             "__typename": "SectionContainer",
-                            "id": "U2VjdGlvbkNvbnRhaW5lcjoxMzYxOTc4ODQzMzAxMzMxNTM=",
+                            "id": "U2VjdGlvbkNvbnRhaW5lcjoyODUzNTQzODI5NTQyOTQyMjE1",
                             "sectionComponentType": "BOOK_IT_NAV",
                             "sectionContentStatus": "COMPLETE",
                             "sectionId": "BOOK_IT_NAV",
@@ -1632,15 +1490,15 @@
                                     "subtitle": "10 reviews",
                                     "title": "5.0 ·"
                                 },
-                                "available": true,
+                                "available": false,
                                 "structuredDisplayPrice": {
                                     "__typename": "StructuredDisplayPrice",
                                     "primaryLine": {
                                         "__typename": "DiscountedDisplayPriceLine",
                                         "displayComponentType": "DISCOUNTED_DISPLAY_PRICE_LINE",
-                                        "accessibilityLabel": "$536 per night, originally $595",
-                                        "discountedPrice": "$536",
-                                        "originalPrice": "$595",
+                                        "accessibilityLabel": "$527 per night, originally $586",
+                                        "discountedPrice": "$527",
+                                        "originalPrice": "$586",
                                         "qualifier": "night",
                                         "shortQualifier": "night",
                                         "concatQualifierLeft": false,
@@ -1658,8 +1516,8 @@
                                                     {
                                                         "__typename": "DefaultExplanationLineItem",
                                                         "displayComponentType": null,
-                                                        "description": "$595 x 7 nights",
-                                                        "priceString": "$4,166",
+                                                        "description": "$586 x 5 nights",
+                                                        "priceString": "$2,929",
                                                         "explanationData": {
                                                             "__typename": "DisplayPriceExplanationData",
                                                             "title": "Base Price Breakdown",
@@ -1672,43 +1530,31 @@
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/20/2023",
-                                                                            "priceString": "$595"
+                                                                            "priceString": "$585"
                                                                         },
                                                                         {
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/21/2023",
-                                                                            "priceString": "$595"
+                                                                            "priceString": "$585"
                                                                         },
                                                                         {
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/22/2023",
-                                                                            "priceString": "$595"
+                                                                            "priceString": "$585"
                                                                         },
                                                                         {
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/23/2023",
-                                                                            "priceString": "$595"
+                                                                            "priceString": "$585"
                                                                         },
                                                                         {
                                                                             "__typename": "DefaultExplanationLineItem",
                                                                             "displayComponentType": null,
                                                                             "description": "4/24/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/25/2023",
-                                                                            "priceString": "$595"
-                                                                        },
-                                                                        {
-                                                                            "__typename": "DefaultExplanationLineItem",
-                                                                            "displayComponentType": null,
-                                                                            "description": "4/26/2023",
-                                                                            "priceString": "$596"
+                                                                            "priceString": "$589"
                                                                         }
                                                                     ],
                                                                     "renderBorderTop": false,
@@ -1722,7 +1568,7 @@
                                                                             "__typename": "HighlightExplanationLineItem",
                                                                             "displayComponentType": "HIGHLIGHT_EXPLANATION_LINE_ITEM",
                                                                             "description": "Total Base Price",
-                                                                            "priceString": "$4,166"
+                                                                            "priceString": "$2,929"
                                                                         }
                                                                     ],
                                                                     "renderBorderTop": true,
@@ -1735,7 +1581,7 @@
                                                         "__typename": "DiscountedExplanationLineItem",
                                                         "displayComponentType": null,
                                                         "description": "Special offer",
-                                                        "priceString": "-$417",
+                                                        "priceString": "-$293",
                                                         "explanationData": {
                                                             "__typename": "DisplayPriceExplanationData",
                                                             "title": null,
@@ -1743,7 +1589,7 @@
                                                                 {
                                                                     "__typename": "DisplayPriceExplanationDisclaimer",
                                                                     "displayComponentType": null,
-                                                                    "content": "Offer good from Apr 20 to Apr 26. Must be booked within 8 days."
+                                                                    "content": "Offer good from Apr 20 to Apr 24. Must be booked within 8 days."
                                                                 }
                                                             ]
                                                         }
@@ -1752,7 +1598,7 @@
                                                         "__typename": "DefaultExplanationLineItem",
                                                         "displayComponentType": null,
                                                         "description": "Airbnb service fee",
-                                                        "priceString": "$635",
+                                                        "priceString": "$447",
                                                         "explanationData": {
                                                             "__typename": "DisplayPriceExplanationData",
                                                             "title": null,
@@ -1777,7 +1623,7 @@
                                                         "__typename": "HighlightExplanationLineItem",
                                                         "displayComponentType": "HIGHLIGHT_EXPLANATION_LINE_ITEM",
                                                         "description": "Total before taxes",
-                                                        "priceString": "$4,384",
+                                                        "priceString": "$3,083",
                                                         "explanationData": null,
                                                         "originalPriceString": null,
                                                         "accessibilityLabel": null
@@ -1797,46 +1643,46 @@
                                     "__typename": "BookItButtonByPlacement",
                                     "footerButton": {
                                         "__typename": "BasicListItem",
-                                        "title": "Reserve",
+                                        "title": "Change dates",
                                         "action": null,
                                         "loggingEventData": {
                                             "__typename": "LoggingEventData",
-                                            "loggingId": "pdp.stickyFooter.bookIt",
+                                            "loggingId": "pdp.stickyFooter.openCalendar",
                                             "experiments": null,
                                             "eventData": null,
                                             "eventDataSchemaName": null,
                                             "section": "stickyFooter",
-                                            "component": "bookIt"
+                                            "component": "openCalendar"
                                         },
                                         "button": null
                                     },
                                     "sideBarButton": {
                                         "__typename": "BasicListItem",
-                                        "title": "Reserve",
+                                        "title": "Change dates",
                                         "action": null,
                                         "loggingEventData": {
                                             "__typename": "LoggingEventData",
-                                            "loggingId": "pdp.sideBar.bookIt",
+                                            "loggingId": "pdp.sideBar.openCalendar",
                                             "experiments": null,
                                             "eventData": null,
                                             "eventDataSchemaName": null,
                                             "section": "sideBar",
-                                            "component": "bookIt"
+                                            "component": "openCalendar"
                                         },
                                         "button": null
                                     },
                                     "stickyNavButton": {
                                         "__typename": "BasicListItem",
-                                        "title": "Reserve",
+                                        "title": "Change dates",
                                         "action": null,
                                         "loggingEventData": {
                                             "__typename": "LoggingEventData",
-                                            "loggingId": "pdp.stickyNav.bookIt",
+                                            "loggingId": "pdp.stickyNav.openCalendar",
                                             "experiments": null,
                                             "eventData": null,
                                             "eventDataSchemaName": null,
                                             "section": "stickyNav",
-                                            "component": "bookIt"
+                                            "component": "openCalendar"
                                         },
                                         "button": null
                                     },
@@ -1858,8 +1704,8 @@
                                 },
                                 "cancellationPolicies": null,
                                 "cancellationPolicyForDisplay": null,
-                                "localizedUnavailabilityMessage": null,
-                                "localizedUnavailabilityMessagePositionString": null,
+                                "localizedUnavailabilityMessage": "Minimum stay is 7 nights",
+                                "localizedUnavailabilityMessagePositionString": "DATE",
                                 "priceDisclaimer": null,
                                 "selectedDatesLink": null,
                                 "selectedNights": null,
@@ -1875,7 +1721,7 @@
                         },
                         {
                             "__typename": "SectionContainer",
-                            "id": "U2VjdGlvbkNvbnRhaW5lcjotNzkzMDU2NTM4NjY4ODAxNzU3Mw==",
+                            "id": "U2VjdGlvbkNvbnRhaW5lcjo1OTA4Mzk0MjMzNzk0OTE1NDgw",
                             "sectionComponentType": "EDUCATION_FOOTER_BANNER",
                             "sectionContentStatus": "SHOULD_HIDE",
                             "sectionId": "EDUCATION_FOOTER_BANNER",
@@ -1901,7 +1747,7 @@
                         },
                         {
                             "__typename": "SectionContainer",
-                            "id": "U2VjdGlvbkNvbnRhaW5lcjotNzAyNTgyNTIyNTQ0MTUyMTExMw==",
+                            "id": "U2VjdGlvbkNvbnRhaW5lcjoyNjYwNjUxMTIxNDMzMDk4MTYz",
                             "sectionComponentType": "URGENCY_COMMITMENT",
                             "sectionContentStatus": "SHOULD_HIDE",
                             "sectionId": "URGENCY_COMMITMENT",
@@ -1924,523 +1770,13 @@
                             "mutationMetadata": null,
                             "pluginPointId": "URGENCY_COMMITMENT",
                             "section": null
-                        },
-                        {
-                            "__typename": "SectionContainer",
-                            "id": "U2VjdGlvbkNvbnRhaW5lcjotMzYzMjIxMzM2NDk2OTYwNjczMw==",
-                            "sectionComponentType": "CANCELLATION_POLICY_PICKER_MODAL",
-                            "sectionContentStatus": "COMPLETE",
-                            "sectionId": "CANCELLATION_POLICY_PICKER_MODAL",
-                            "errors": null,
-                            "sectionDependencies": [
-                                "CHECK_IN",
-                                "CHECK_OUT",
-                                "BOOKING"
-                            ],
-                            "enableDependencies": null,
-                            "disableDependencies": null,
-                            "loggingData": {
-                                "__typename": "LoggingEventData",
-                                "loggingId": "pdp_platform.cancellation_policy_picker_modal",
-                                "experiments": null,
-                                "eventData": null,
-                                "eventDataSchemaName": null,
-                                "section": null,
-                                "component": null
-                            },
-                            "e2eLoggingSession": null,
-                            "mutationMetadata": null,
-                            "pluginPointId": "CANCELLATION_POLICY_PICKER_MODAL",
-                            "section": {
-                                "__typename": "CancellationPolicyPickerSection",
-                                "title": "Choose a cancellation policy",
-                                "button": {
-                                    "__typename": "Button",
-                                    "title": "Continue",
-                                    "action": null
-                                },
-                                "optionalityPriceDetail": null
-                            }
                         }
                     ],
                     "sectionsV2": [],
                     "screens": [
                         {
                             "__typename": "ScreenContainer",
-                            "screenId": "CALENDAR",
-                            "screenProperties": null,
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [
-                                        {
-                                            "__typename": "SectionDetail",
-                                            "sectionId": "BOOK_IT_CALENDAR_SHEET",
-                                            "divider": null,
-                                            "border": null,
-                                            "topMarginPoints": null,
-                                            "topPaddingPoints": null,
-                                            "bottomPaddingPoints": null,
-                                            "bottomMarginPoints": null,
-                                            "backgroundColorNew": null,
-                                            "horizontalPadding": "FULL_WIDTH",
-                                            "maxWidth": null
-                                        }
-                                    ],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [
-                                        {
-                                            "__typename": "SectionDetail",
-                                            "sectionId": "BOOK_IT_CALENDAR_SHEET",
-                                            "divider": null,
-                                            "border": null,
-                                            "topMarginPoints": null,
-                                            "topPaddingPoints": null,
-                                            "bottomPaddingPoints": null,
-                                            "bottomMarginPoints": null,
-                                            "backgroundColorNew": null,
-                                            "horizontalPadding": "FULL_WIDTH",
-                                            "maxWidth": null
-                                        }
-                                    ],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "ADD_AMENITIES",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "CONTEXT_SHEET_FULL",
-                                "transitionType": "SLIDE_FROM_RIGHT",
-                                "modalTitle": null,
-                                "unstyled": null
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "FLOATING_FOOTER",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "FLOATING_FOOTER",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "INDIVIDUAL_HOST_PROMPT",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "CONTEXT_SHEET_FITTED",
-                                "transitionType": "CONTEXTUAL_GROW",
-                                "modalTitle": "What to know",
-                                "unstyled": null
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "NAV",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "NAV",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "PHOTO_TOUR_SCROLLABLE",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "FULL_SCREEN_MODAL",
-                                "transitionType": "CONTEXTUAL_GROW",
-                                "modalTitle": null,
-                                "unstyled": true
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "PHOTO_TOUR_CAROUSEL",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "FULL_SCREEN_MODAL",
-                                "transitionType": "CONTEXTUAL_GROW",
-                                "modalTitle": null,
-                                "unstyled": true
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "AIRCOVER_PDP_MODAL",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "CONTEXT_SHEET_FULL",
-                                "transitionType": "CONTEXTUAL_GROW",
-                                "modalTitle": null,
-                                "unstyled": null
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "SPLIT_STAYS_DATE_EDIT_PROMPT",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "CONTEXT_SHEET_FITTED",
-                                "transitionType": "CONTEXTUAL_GROW",
-                                "modalTitle": "Need to change your dates?",
-                                "unstyled": null
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "HOST_DESCRIPTION",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "CONTEXT_SHEET_FULL",
-                                "transitionType": "CONTEXTUAL_GROW",
-                                "modalTitle": null,
-                                "unstyled": null
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "PROFESSIONAL_HOST_DETAILS",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "CONTEXT_SHEET_FITTED",
-                                "transitionType": "CONTEXTUAL_GROW",
-                                "modalTitle": "Business details",
-                                "unstyled": null
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "NAV",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "NAV",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "ENHANCED_CLEANING",
-                            "screenProperties": null,
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "TRANSLATION_PROMPT",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "CONTEXT_SHEET_FITTED",
-                                "transitionType": "CONTEXTUAL_GROW",
-                                "modalTitle": "Translation",
-                                "unstyled": null
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "NAV",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "NAV",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "BUSINESS_DETAILS",
+                            "screenId": "PLUS_EDUCATION_MODAL",
                             "screenProperties": {
                                 "__typename": "ScreenProperties",
                                 "modalType": "CONTEXT_SHEET_FULL",
@@ -2550,6 +1886,699 @@
                                             "maxWidth": null
                                         }
                                     ],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "PROFESSIONAL_HOST_DETAILS",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "CONTEXT_SHEET_FITTED",
+                                "transitionType": "CONTEXTUAL_GROW",
+                                "modalTitle": "Business details",
+                                "unstyled": null
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "NAV",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "NAV",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "PHOTO_TOUR_SCROLLABLE",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "FULL_SCREEN_MODAL",
+                                "transitionType": "CONTEXTUAL_GROW",
+                                "modalTitle": null,
+                                "unstyled": true
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "AIRCOVER_PDP_MODAL",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "CONTEXT_SHEET_FULL",
+                                "transitionType": "CONTEXTUAL_GROW",
+                                "modalTitle": null,
+                                "unstyled": null
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "NON_EXPERIENCED_GUEST_LEARN_MORE_MODAL",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "CONTEXT_SHEET_FULL",
+                                "transitionType": "CONTEXTUAL_GROW",
+                                "modalTitle": null,
+                                "unstyled": null
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "ACCESSIBILITY",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "FULL_SCREEN_MODAL",
+                                "transitionType": null,
+                                "modalTitle": null,
+                                "unstyled": null
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "HOST_DESCRIPTION",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "CONTEXT_SHEET_FULL",
+                                "transitionType": "CONTEXTUAL_GROW",
+                                "modalTitle": null,
+                                "unstyled": null
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "PHOTO_TOUR_CAROUSEL",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "FULL_SCREEN_MODAL",
+                                "transitionType": "CONTEXTUAL_GROW",
+                                "modalTitle": null,
+                                "unstyled": true
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "ADD_AMENITIES",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "CONTEXT_SHEET_FULL",
+                                "transitionType": "SLIDE_FROM_RIGHT",
+                                "modalTitle": null,
+                                "unstyled": null
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "FLOATING_FOOTER",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "FLOATING_FOOTER",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "CALENDAR",
+                            "screenProperties": null,
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [
+                                        {
+                                            "__typename": "SectionDetail",
+                                            "sectionId": "BOOK_IT_CALENDAR_SHEET",
+                                            "divider": null,
+                                            "border": null,
+                                            "topMarginPoints": null,
+                                            "topPaddingPoints": null,
+                                            "bottomPaddingPoints": null,
+                                            "bottomMarginPoints": null,
+                                            "backgroundColorNew": null,
+                                            "horizontalPadding": "FULL_WIDTH",
+                                            "maxWidth": null
+                                        }
+                                    ],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [
+                                        {
+                                            "__typename": "SectionDetail",
+                                            "sectionId": "BOOK_IT_CALENDAR_SHEET",
+                                            "divider": null,
+                                            "border": null,
+                                            "topMarginPoints": null,
+                                            "topPaddingPoints": null,
+                                            "bottomPaddingPoints": null,
+                                            "bottomMarginPoints": null,
+                                            "backgroundColorNew": null,
+                                            "horizontalPadding": "FULL_WIDTH",
+                                            "maxWidth": null
+                                        }
+                                    ],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "DESCRIPTION",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "CONTEXT_SHEET_FULL",
+                                "transitionType": "CONTEXTUAL_GROW",
+                                "modalTitle": "About this space",
+                                "unstyled": null
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "CANCELLATION_POLICY_PICKER",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "CONTEXT_SHEET_FITTED",
+                                "transitionType": "CONTEXTUAL_GROW",
+                                "modalTitle": "Choose a cancellation policy",
+                                "unstyled": true
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [
+                                        {
+                                            "__typename": "SectionDetail",
+                                            "sectionId": "CANCELLATION_POLICY_PICKER_MODAL",
+                                            "divider": null,
+                                            "border": null,
+                                            "topMarginPoints": null,
+                                            "topPaddingPoints": null,
+                                            "bottomPaddingPoints": null,
+                                            "bottomMarginPoints": null,
+                                            "backgroundColorNew": null,
+                                            "horizontalPadding": "FULL_WIDTH",
+                                            "maxWidth": null
+                                        }
+                                    ],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [
+                                        {
+                                            "__typename": "SectionDetail",
+                                            "sectionId": "CANCELLATION_POLICY_PICKER_MODAL",
+                                            "divider": null,
+                                            "border": null,
+                                            "topMarginPoints": null,
+                                            "topPaddingPoints": null,
+                                            "bottomPaddingPoints": null,
+                                            "bottomMarginPoints": null,
+                                            "backgroundColorNew": null,
+                                            "horizontalPadding": "FULL_WIDTH",
+                                            "maxWidth": null
+                                        }
+                                    ],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "ENHANCED_CLEANING",
+                            "screenProperties": null,
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "REVIEWS",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "CONTEXT_SHEET_FULL",
+                                "transitionType": "CONTEXTUAL_GROW",
+                                "modalTitle": null,
+                                "unstyled": null
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "SPLIT_STAYS_DATE_EDIT_PROMPT",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "CONTEXT_SHEET_FITTED",
+                                "transitionType": "CONTEXTUAL_GROW",
+                                "modalTitle": "Need to change your dates?",
+                                "unstyled": null
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "WHAT_COUNTS_AS_A_PET_MODAL",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "CONTEXT_SHEET",
+                                "transitionType": null,
+                                "modalTitle": "Service animals",
+                                "unstyled": null
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "BUSINESS_DETAILS",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "CONTEXT_SHEET_FULL",
+                                "transitionType": "CONTEXTUAL_GROW",
+                                "modalTitle": null,
+                                "unstyled": null
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                }
+                            ]
+                        },
+                        {
+                            "__typename": "ScreenContainer",
+                            "screenId": "TRANSLATION_PROMPT",
+                            "screenProperties": {
+                                "__typename": "ScreenProperties",
+                                "modalType": "CONTEXT_SHEET_FITTED",
+                                "transitionType": "CONTEXTUAL_GROW",
+                                "modalTitle": "Translation",
+                                "unstyled": null
+                            },
+                            "e2eLoggingSessions": null,
+                            "screenContentStatus": "COMPLETE",
+                            "screenContext": null,
+                            "onLoadScreenAction": null,
+                            "sectionPlacements": [
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "NAV",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "WIDE",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "NAV",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
                                     "style": null,
                                     "formFactor": "COMPACT",
                                     "mediaType": null
@@ -2837,215 +2866,12 @@
                         },
                         {
                             "__typename": "ScreenContainer",
-                            "screenId": "ACCESSIBILITY",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "FULL_SCREEN_MODAL",
-                                "transitionType": null,
-                                "modalTitle": null,
-                                "unstyled": null
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "WHAT_COUNTS_AS_A_PET_MODAL",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "CONTEXT_SHEET",
-                                "transitionType": null,
-                                "modalTitle": "Service animals",
-                                "unstyled": null
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "PLUS_EDUCATION_MODAL",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "CONTEXT_SHEET_FULL",
-                                "transitionType": "CONTEXTUAL_GROW",
-                                "modalTitle": null,
-                                "unstyled": null
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "NON_EXPERIENCED_GUEST_LEARN_MORE_MODAL",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "CONTEXT_SHEET_FULL",
-                                "transitionType": "CONTEXTUAL_GROW",
-                                "modalTitle": null,
-                                "unstyled": null
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "CANCELLATION_POLICY_PICKER",
+                            "screenId": "INDIVIDUAL_HOST_PROMPT",
                             "screenProperties": {
                                 "__typename": "ScreenProperties",
                                 "modalType": "CONTEXT_SHEET_FITTED",
                                 "transitionType": "CONTEXTUAL_GROW",
-                                "modalTitle": "Choose a cancellation policy",
-                                "unstyled": true
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [
-                                        {
-                                            "__typename": "SectionDetail",
-                                            "sectionId": "CANCELLATION_POLICY_PICKER_MODAL",
-                                            "divider": null,
-                                            "border": null,
-                                            "topMarginPoints": null,
-                                            "topPaddingPoints": null,
-                                            "bottomPaddingPoints": null,
-                                            "bottomMarginPoints": null,
-                                            "backgroundColorNew": null,
-                                            "horizontalPadding": "FULL_WIDTH",
-                                            "maxWidth": null
-                                        }
-                                    ],
-                                    "style": null,
-                                    "formFactor": "WIDE",
-                                    "mediaType": null
-                                },
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [
-                                        {
-                                            "__typename": "SectionDetail",
-                                            "sectionId": "CANCELLATION_POLICY_PICKER_MODAL",
-                                            "divider": null,
-                                            "border": null,
-                                            "topMarginPoints": null,
-                                            "topPaddingPoints": null,
-                                            "bottomPaddingPoints": null,
-                                            "bottomMarginPoints": null,
-                                            "backgroundColorNew": null,
-                                            "horizontalPadding": "FULL_WIDTH",
-                                            "maxWidth": null
-                                        }
-                                    ],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "DESCRIPTION",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "CONTEXT_SHEET_FULL",
-                                "transitionType": "CONTEXTUAL_GROW",
-                                "modalTitle": "About this space",
+                                "modalTitle": "What to know",
                                 "unstyled": null
                             },
                             "e2eLoggingSessions": null,
@@ -3064,33 +2890,7 @@
                                 },
                                 {
                                     "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
-                                    "layout": "SINGLE_COLUMN",
-                                    "sectionDetails": [],
-                                    "style": null,
-                                    "formFactor": "COMPACT",
-                                    "mediaType": null
-                                }
-                            ]
-                        },
-                        {
-                            "__typename": "ScreenContainer",
-                            "screenId": "REVIEWS",
-                            "screenProperties": {
-                                "__typename": "ScreenProperties",
-                                "modalType": "CONTEXT_SHEET_FULL",
-                                "transitionType": "CONTEXTUAL_GROW",
-                                "modalTitle": null,
-                                "unstyled": null
-                            },
-                            "e2eLoggingSessions": null,
-                            "screenContentStatus": "COMPLETE",
-                            "screenContext": null,
-                            "onLoadScreenAction": null,
-                            "sectionPlacements": [
-                                {
-                                    "__typename": "SectionPlacement",
-                                    "placement": "MAIN",
+                                    "placement": "NAV",
                                     "layout": "SINGLE_COLUMN",
                                     "sectionDetails": [],
                                     "style": null,
@@ -3100,6 +2900,15 @@
                                 {
                                     "__typename": "SectionPlacement",
                                     "placement": "MAIN",
+                                    "layout": "SINGLE_COLUMN",
+                                    "sectionDetails": [],
+                                    "style": null,
+                                    "formFactor": "COMPACT",
+                                    "mediaType": null
+                                },
+                                {
+                                    "__typename": "SectionPlacement",
+                                    "placement": "NAV",
                                     "layout": "SINGLE_COLUMN",
                                     "sectionDetails": [],
                                     "style": null,
@@ -3369,6 +3178,6 @@
         }
     },
     "extensions": {
-        "traceId": "y7oASaXgvBmMnexgZvWjtQ=="
+        "traceId": "s9C_B7PfuFXDP0tVk1o86w=="
     }
 }
