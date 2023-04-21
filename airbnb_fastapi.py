@@ -54,7 +54,24 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
-app = FastAPI()
+app = FastAPI(title="Airbnb",
+    description="Airbnb service scrapy info from Items",
+    version="0.1",
+    # terms_of_service="http://example.com/terms/",
+    contact={"telegram": "https://t.me/pydevdse", }
+
+    # {
+    #     "name": "Michael",
+    #     #"url": "http://x-force.example.com/contact/",
+    #     "telegram": "https://t.me/pydevdse",
+    #     #"email": "dp@x-force.example.com",
+    # },
+    #license_info={
+    #    "name": "Apache 2.0",
+    #    "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
+    #},
+)
+
 
 
 def verify_password(plain_password, hashed_password):
@@ -158,9 +175,9 @@ async def read_item_info(
 ):
     response = Airbnb().get_room_info(item_id)
     if response is not None:
-        fake_users_db[current_user.username]["views"] -= 1
         if fake_users_db.get(current_user.username).get("views")<1:
             raise HTTPException(status_code=400, detail="Requests not")
+        fake_users_db[current_user.username]["views"] -= 1
     print(current_user)
     return response
 
