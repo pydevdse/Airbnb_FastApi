@@ -1,7 +1,4 @@
-import json
 from datetime import date, datetime, timedelta
-
-from airbnb_api import Airbnb
 from typing import Annotated
 
 from fastapi import Depends, FastAPI, HTTPException, status
@@ -10,20 +7,21 @@ from jose import JWTError, jwt
 from passlib.context import CryptContext
 from pydantic import BaseModel
 
+from airbnb_api import Airbnb
+
 # to get a string like this run:
 # openssl rand -hex 32
 SECRET_KEY = "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
-
 fake_users_db = {
     "johndoe": {
         "username": "johndoe",
         "full_name": "John Doe",
         "email": "johndoe@example.com",
-        "hashed_password": "$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW",
-        "views": 3,
+        "hashed_password": "$2b$12$x4VOov9NjY3mCXQEEWFqHurRVxG/QruSMK11pxSmLkIDEiIVoWMCO",
+        "views": 100,
         "disabled": False,
     }
 }
@@ -46,6 +44,14 @@ class User(BaseModel):
     disabled: bool | None = None
 
 
+class CreateUser(BaseModel):
+    username: str
+    password: str
+    password: str
+    email: str | None = None
+    full_name: str | None = None
+
+
 class UserInDB(User):
     hashed_password: str
 
@@ -55,23 +61,22 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
 app = FastAPI(title="Airbnb",
-    description="Airbnb service scrapy info from Items",
-    version="0.1",
-    # terms_of_service="http://example.com/terms/",
-    contact={"telegram": "https://t.me/pydevdse", }
+              description="Airbnb service scrapy info from Items",
+              version="0.1",
+              # terms_of_service="http://example.com/terms/",
+              contact={"telegram": "https://t.me/pydevdse", }
 
-    # {
-    #     "name": "Michael",
-    #     #"url": "http://x-force.example.com/contact/",
-    #     "telegram": "https://t.me/pydevdse",
-    #     #"email": "dp@x-force.example.com",
-    # },
-    #license_info={
-    #    "name": "Apache 2.0",
-    #    "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
-    #},
-)
-
+              # {
+              #     "name": "Michael",
+              #     #"url": "http://x-force.example.com/contact/",
+              #     "telegram": "https://t.me/pydevdse",
+              #     #"email": "dp@x-force.example.com",
+              # },
+              # license_info={
+              #    "name": "Apache 2.0",
+              #    "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
+              # },
+              )
 
 
 def verify_password(plain_password, hashed_password):
@@ -95,6 +100,12 @@ def authenticate_user(fake_db, username: str, password: str):
     if not verify_password(password, user.hashed_password):
         return False
     return user
+
+
+def create_user(fake_db, username: str, password: str, email: str, name: str, ):
+    if get_user(fake_db, username):
+        raise HTTPException(status_code=400, detail="username already exists")
+    # new_user = fake_db, username, password, email, name)
 
 
 def create_access_token(data: dict, expires_delta: timedelta | None = None):
@@ -129,16 +140,26 @@ async def get_current_user(token: Annotated[str, Depends(oauth2_scheme)]):
 
 
 async def get_current_active_user(
-    current_user: Annotated[User, Depends(get_current_user)]
+        current_user: Annotated[User, Depends(get_current_user)]
 ):
     if current_user.disabled:
         raise HTTPException(status_code=400, detail="Inactive user")
     return current_user
 
 
+@app.get("/")
+async def main():
+    return {"Message": "Hello world"}
+
+
+@app.post("/registration", response_model=CreateUser)
+async def create_user():
+    form_data: Annotated[OAuth2PasswordRequestForm, Depends()]
+
+
 @app.post("/token", response_model=Token)
 async def login_for_access_token(
-    form_data: Annotated[OAuth2PasswordRequestForm, Depends()]
+        form_data: Annotated[OAuth2PasswordRequestForm, Depends()]
 ):
     user = authenticate_user(fake_users_db, form_data.username, form_data.password)
     if not user:
@@ -156,50 +177,50 @@ async def login_for_access_token(
 
 @app.get("/users/me/", response_model=User)
 async def read_users_me(
-    current_user: Annotated[User, Depends(get_current_active_user)]
+        current_user: Annotated[User, Depends(get_current_active_user)]
 ):
     return current_user
 
 
 @app.get("/users/me/items/")
 async def read_own_items(
-    current_user: Annotated[User, Depends(get_current_active_user)]
+        current_user: Annotated[User, Depends(get_current_active_user)]
 ):
-    print(current_user)
+    # print(current_user)
     return [{"owner": current_user.username, "requests": fake_users_db.get(current_user.username).get("views")}]
 
 
 @app.get("/item_info/{item_id}")
 async def read_item_info(
-    item_id: int, current_user: Annotated[User, Depends(get_current_active_user)]
+        item_id: int, current_user: Annotated[User, Depends(get_current_active_user)]
 ):
     response = Airbnb().get_room_info(item_id)
     if response is not None:
-        if fake_users_db.get(current_user.username).get("views")<1:
-            raise HTTPException(status_code=400, detail="Requests not")
+        if fake_users_db.get(current_user.username).get("views") < 1:
+            raise HTTPException(status_code=400, detail="Views ended")
         fake_users_db[current_user.username]["views"] -= 1
-    print(current_user)
+    # print(current_user)
     return response
 
 
 @app.get("/item_info_price/{item_id}")
 async def read_item_price(
-    item_id: int,
-    current_user: Annotated[User, Depends(get_current_active_user)],
-    checkIn: date = datetime.now().date(),
-    checkOut: date = date(
-        year=datetime.now().date().year,
-        month=datetime.now().date().month,
-        day=datetime.now().date().day + 4,
-    ),
+        item_id: int,
+        current_user: Annotated[User, Depends(get_current_active_user)],
+        checkIn: date = datetime.now().date(),
+        checkOut: date = date(
+            year=datetime.now().date().year,
+            month=datetime.now().date().month,
+            day=datetime.now().date().day + 4,
+        ),
 ):
     return Airbnb().get_room_info_price(item_id, checkIn, checkOut)
 
 
 @app.get("/item_info_available/{item_id}")
 async def read_item_available(
-    item_id: int,
-    current_user: Annotated[User, Depends(get_current_active_user)],
-    month: int = datetime.now().month,
+        item_id: int,
+        current_user: Annotated[User, Depends(get_current_active_user)],
+        month: int = datetime.now().month,
 ):
     return Airbnb().get_room_available(item_id, month)

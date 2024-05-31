@@ -1,0 +1,27 @@
+Accept:*/*
+Accept-Encoding:gzip, deflate, br, zstd
+Accept-Language:en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uk;q=0.6
+Content-Type:application/json
+:Cookie:bev=1708523270_MzFiODA4YTk4NmRk; everest_cookie=1708523270.U4AhgOVx2QBAZoZjmjZg.ES0y_51YLJSUluqcRoZlFaZ9I0-eNpyjzimBeGbACuU; country=UA; frmfctr=wide; cfrmfctr=DESKTOP; _ga=GA1.1.1998381010.1708523281; FPID=FPID2.2.vHlCVXw0JWBrOPXd5uGIViHDPMl0rX%2F1TNakvvwzyrc%3D.1708523281; _scid=bd7193a6-da27-4dec-9893-0d4ccabb70f5; _ccv=cban%3A0_183215%3D1%2C0_200000%3D1%2C0_183345%3D1%2C0_183243%3D1%2C0_183216%3D1%2C0_179751%3D1%2C0_200003%3D1%2C0_200005%3D1%2C0_179754%3D1%2C0_179750%3D1%2C0_179737%3D1%2C0_179744%3D1%2C0_179739%3D1%2C0_179743%3D1%2C0_179749%3D1%2C0_200012%3D1%2C0_200011%3D1%2C0_183217%3D1%2C0_183219%3D1%2C0_183096%3D1%2C0_179747%3D1%2C0_179740%3D1%2C0_179752%3D1%2C0_183241%3D1%2C0_200007%3D1%2C0_183346%3D1%2C0_183095%3D1%2C0_210000%3D1%2C0_210001%3D1%2C0_210002%3D1%2C0_210003%3D1%2C0_210004%3D1%2C0_210010%3D1; _user_attributes=%7B%22device_profiling_session_id%22%3A%221708523270--42b2228dbdd5628a16a3d478%22%2C%22giftcard_profiling_session_id%22%3A%221717070604--390aefdfc41133c20fdfc06c%22%2C%22reservation_profiling_session_id%22%3A%221717070604--634651bdd4eb4e3cee34ce70%22%2C%22curr%22%3A%22USD%22%7D; ak_bmsc=CF90C2C615C4B2E951A6A07AA4A2E60B~000000000000000000000000000000~YAAQ1nQQAhJofMSPAQAAhSpiyRcESlmxT6D/X+SvqIfdmNTom4+g79lhf37LhbXncl2fCUD7N4ppJPUMyvyWS21vAY7eqtBjapwUzYxjWe2DpcNO5kHezaawf9fQWBhzO6Bu0uwif/iEA0UlMZGiN6PQY7N3/qmev6FLrzz9vBfKjlMNFseKKdMoQkjZE2JpnwEBDRS+b2kJ9RojIVF/w5htCl9WLnnqwbLflHM5ZVLUXWaSmDI//rTPzY7aBOho93mSfIBIxJNpJVHsudD1HO2uHVas+XGjP+ad29smiVOMKz7EnR1p1nGXTsFJivD3BQpHk6POIk/ZbGiM2AU/dJ5IjMNdGm8SftLLpbmjaGzxsuMBSLVRB/WqvfeNkBHL8G/HTZfSyoHzJw==; tzo=180; cbkp=4; _gcl_au=1.1.705276892.1717070607; FPAU=1.1.705276892.1717070607; FPLC=q921pJyKlR2ayVebPEOI1NeFdREP%2BSuWmgqzpFiiD4Z8LyS9EKd2HnXsmfhFddmECDNS3AEKpB3S6NurTY03zKG478skgW3E8xeZiLHB8%2F4LqIGUXgMz%2FtIKnwjvpg%3D%3D; previousTab=%7B%22id%22%3A%22e818bd81-d6df-4c67-baae-ab57b83b3929%22%7D; jitney_client_session_id=6b3aec85-589d-43c1-9d06-0c443c7c3081; jitney_client_session_created_at=1717073348.342; OptanonConsent=0_179750%3A1%2C0_183095%3A1%2C0_183241%3A1%2C0_179754%3A1%2C0_183346%3A1%2C0_200000%3A1%2C0_210000%3A1%2C0_210010%3A1%2C0_183215%3A1%2C0_210004%3A1%2C0_179737%3A1%2C0_179752%3A1%2C0_179751%3A1%2C0_179749%3A1%2C0_200007%3A1%2C0_210001%3A1%2C0_200005%3A1%2C0_179740%3A1%2C0_179743%3A1%2C0_179744%3A1%2C0_183243%3A1%2C0_183096%3A1%2C0_179747%3A1%2C0_183216%3A1%2C0_200012%3A1%2C0_183219%3A1%2C0_200003%3A1%2C0_179739%3A1%2C0_210002%3A1%2C0_183217%3A1%2C0_183345%3A1%2C0_210003%3A1%2C0_200011%3A1; _cci=cban%3Aac-adb12519-2b5e-4175-92c5-258f3e6ac446; jitney_client_session_updated_at=1717073349; FPGSID=1.1717073349.1717073349.G-2P6Q8PGG16.N60zqKXiLH77nrQbdCAk0g; bm_sv=F4A1A85BBE815BE931C2F43C485AB45B~YAAQy3QQAnaAcKiPAQAA3iCMyRcAlEJMQ75QffGPguT1doJyen64RwyuGrmflVSOE93+I+l3gSvrnuwFrkSAP/y3gznucnc3x3jIa3CiFgnk4wBFmuFcsJtesqxkPOo4bechyXMNZ+6oFRIirY/VctQSEDENv9E2ybrRWMnRtTPqjwEe14wKBDSF4XoyaWDwvoxT9TzcRlAANySmforUNiuflHKL0iT3FS05641Bed9Qic7w6m6XGQTlculrvs2peA==~1; _ga_2P6Q8PGG16=GS1.1.1717073348.18.0.1717073355.0.0.647658601
+Device-Memory:8
+Dpr:1
+Ect:4g
+Priority:u=1, i
+Referer:https://www.airbnb.com/rooms/20255447?adults=1&category_tag=Tag%3A8535&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1445529823&search_mode=regular_search&check_in=2024-06-03&check_out=2024-06-08&source_impression_id=p3_1717073345_vAPEIRA%2FFjfesQXl&previous_page_section_name=1000&federated_search_id=9d6ab2e3-e1fb-4364-933a-ae92906acc41
+Sec-Ch-Ua:"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+Sec-Ch-Ua-Mobile:?0
+Sec-Ch-Ua-Platform:"Windows"
+Sec-Ch-Ua-Platform-Version:"10.0.0"
+Sec-Fetch-Dest:empty
+Sec-Fetch-Mode:cors
+Sec-Fetch-Site:same-origin
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Viewport-Width:1920
+X-Airbnb-Api-Key:d306zoyjsyarp7ifhu67rjxn52tv0t20
+X-Airbnb-Graphql-Platform:web
+X-Airbnb-Graphql-Platform-Client:minimalist-niobe
+X-Airbnb-Supports-Airlock-V2:true
+X-Client-Request-Id:07dadh70gle4d51uzy6mb0exldfc
+X-Client-Version:f8e0969be2085d62dd24bebc1b0785b310958074
+X-Csrf-Token:X-Csrf-Without-Token:1
+X-Niobe-Short-Circuited:true
